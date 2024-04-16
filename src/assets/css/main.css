@@ -1,0 +1,251 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: "GothamProBlack";
+  src: url("../fonts/GothamPro/GothamProBlack/GothamProBlack.eot");
+  src: url("../fonts/GothamPro/GothamProBlack/GothamProBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamPro/GothamProBlack/GothamProBlack.woff") format("woff"),
+    url("../fonts/GothamPro/GothamProBlack/GothamProBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProBlackItalic";
+  src: url("../fonts/GothamPro/GothamProBlackItalic/GothamProBlackItalic.eot");
+  src: url("../fonts/GothamPro/GothamProBlackItalic/GothamProBlackItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamPro/GothamProBlackItalic/GothamProBlackItalic.woff") format("woff"),
+    url("../fonts/GothamPro/GothamProBlackItalic/GothamProBlackItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProBold";
+  src: url("../fonts/GothamPro/GothamProBold/GothamProBold.eot");
+  src: url("../fonts/GothamPro/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamPro/GothamProBold/GothamProBold.woff") format("woff"),
+    url("../fonts/GothamPro/GothamProBold/GothamProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProBoldItalic";
+  src: url("../fonts/GothamPro/GothamProBoldItalic/GothamProBoldItalic.eot");
+  src: url("../fonts/GothamPro/GothamProBoldItalic/GothamProBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamPro/GothamProBoldItalic/GothamProBoldItalic.woff") format("woff"),
+    url("../fonts/GothamPro/GothamProBoldItalic/GothamProBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProMedium";
+  src: url("../fonts/GothamPro/GothamProMedium/GothamProMedium.eot");
+  src: url("../fonts/GothamPro/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamPro/GothamProMedium/GothamProMedium.woff") format("woff"),
+    url("../fonts/GothamPro/GothamProMedium/GothamProMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProMediumItalic";
+  src: url("../fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.eot");
+  src: url("../fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.woff") format("woff"),
+    url("../fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProRegular";
+  src: url("../fonts/GothamPro/GothamProRegular/GothamProRegular.eot");
+  src: url("../fonts/GothamPro/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamPro/GothamProRegular/GothamProRegular.woff") format("woff"),
+    url("../fonts/GothamPro/GothamProRegular/GothamProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProItalic";
+  src: url("../fonts/GothamPro/GothamProItalic/GothamProItalic.eot");
+  src: url("../fonts/GothamPro/GothamProItalic/GothamProItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamPro/GothamProItalic/GothamProItalic.woff") format("woff"),
+    url("../fonts/GothamPro/GothamProItalic/GothamProItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProLight";
+  src: url("../fonts/GothamPro/GothamProLight/GothamProLight.eot");
+  src: url("../fonts/GothamPro/GothamProLight/GothamProLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamPro/GothamProLight/GothamProLight.woff") format("woff"),
+    url("../fonts/GothamPro/GothamProLight/GothamProLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProLightItalic";
+  src: url("../fonts/GothamPro/GothamProLightItalic/GothamProLightItalic.eot");
+  src: url("../fonts/GothamPro/GothamProLightItalic/GothamProLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamPro/GothamProLightItalic/GothamProLightItalic.woff") format("woff"),
+    url("../fonts/GothamPro/GothamProLightItalic/GothamProLightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  font-family: "GothamProRegular", 'Segoe UI', sans-serif;
+  color: #333333;
+  shape-rendering: geometricPrecision;
+  letter-spacing: 0.03em;
+}
+
+.text-bold {
+  font-family: "GothamProBold", 'Segoe UI', sans-serif;
+}
+
+.text-black {
+  font-family: "GothamProBlack", 'Segoe UI', sans-serif;
+}
+
+.text-light {
+  font-family: "GothamProLight", 'Segoe UI', sans-serif;
+}
+
+label {
+  font-family: "GothamProRegular", 'Segoe UI', sans-serif !important;
+  font-weight: normal !important;
+}
+
+span {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h1 {
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 34px;
+}
+
+h2 {
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+h3 {
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.green {
+  color: rgba(1, 204, 110, 1)
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.progress-value {
+  border: 4px solid green;
+  max-width: 50px;
+  margin: 2px;
+  position: relative;
+  font-weight: 600;
+  border-color: rgba(1, 204, 110, 1);
+  border-width: 4px;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 2px;
+  bottom: 10px;
+}
+
+.progress-value::before {
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  border-radius: 5px;
+  bottom: -12px;
+  left: 14px;
+  background-color: white;
+  border-color: rgba(1, 204, 110, 1);
+  border-top: white;
+  border-left: white;
+  border-width: 4px;
+  transform: rotate(45deg);
+}
+
+.border-yellow-500 {
+  border-color: rgb(252 211 77);
+}
+
+.border-red-500 {
+  border-color: rgb(239 68 68);
+}
+
+.border-rose-500 {
+  border-color: rgb(244 63 94);
+}
+
+.overflow-transparent {
+  position: absolute;
+  height: 3rem;
+  background: linear-gradient(180deg, transparent 0%, #F8F9FB 100%);
+}
+
+.radial-progress {
+  position: relative;
+  display: inline-grid;
+  height: var(--size);
+  width: var(--size);
+  place-content: center;
+  border-radius: 9999px;
+  background-color: transparent;
+  vertical-align: middle;
+  box-sizing: content-box;
+  --value: 0;
+  --size: 5rem;
+  --thickness: calc(var(--size) / 10);
+}
+
+.radial-progress::before,
+.radial-progress::after {
+  position: absolute;
+  border-radius: 9999px;
+  content: "";
+}
+
+.radial-progress::before {
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(farthest-side, currentColor 98%, #0000) top / var(--thickness) var(--thickness) no-repeat, conic-gradient(currentColor calc(var(--value)* 1%), #0000 0);
+  mask: radial-gradient(farthest-side, #0000 calc(99% - var(--thickness)), #000 calc(100% - var(--thickness)));
+  transform: rotateY(180deg);
+}
+
+
+.radial-progress::after {
+
+  inset: calc(50% - var(--thickness) / 2);
+  transform: rotate(calc(var(--value)* 3.6deg - 90deg)) translate(calc(var(--size) / 2 - 50%));
+  /* background-color: currentColor; */
+}
+
+.s-linaire {
+  background: linear-gradient(180deg, rgba(1, 169, 140, 1), rgba(0, 207, 106, 1));
+}
