@@ -53,7 +53,7 @@ export default {
     };
 
     const onSearch = (nameKey) => {
-      usersStore.search(nameKey);
+      usersStore.searchUser(nameKey);
     }
 
     return { modal, onAdd, toggleSort, isSorted, onSearch, nameKey };

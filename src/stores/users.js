@@ -80,10 +80,8 @@ export const useUsersStore = defineStore({
     unSortUser() {
       this.users.sort((a, b) => b.name.localeCompare(a.name));
     },
-    searchUser(name) {
-      this.users.find(o => o.name === name);
-    },
-    search(nameKey) {
+
+    searchUser(nameKey) {
 
       for (let i = 0; i < this.users.length; i++) {
 
